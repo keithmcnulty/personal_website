@@ -6,7 +6,7 @@ const io = new IntersectionObserver(
   (entries) => entries.forEach((e) => e.isIntersecting && (e.target.classList.add("in"), io.unobserve(e.target))),
   { threshold: 0.12 }
 );
-document.querySelectorAll(".section, .banner, .book, .papers li").forEach((el) => {
+document.querySelectorAll(".section, .banner, .book, .teach-card, .papers li").forEach((el) => {
   el.classList.add("reveal");
   io.observe(el);
 });
