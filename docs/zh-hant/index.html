@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Keith McNulty（基思·麥克納爾蒂）— 數學家、工業與組織心理學家、資料科學家、教育者</title>
+  <meta name="description" content="基思·麥克納爾蒂：數學家、工業與組織心理學家、資料科學家與數學教育者，工作於數學與人的交會之處。涵蓋寫作、教學、著作以及數學研究。">
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+  <link rel="alternate" hreflang="en" href="https://keithmcnulty.org/">
+  <link rel="alternate" hreflang="ja" href="https://keithmcnulty.org/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://keithmcnulty.org/zh-hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://keithmcnulty.org/zh-hant/">
+  <link rel="alternate" hreflang="ko" href="https://keithmcnulty.org/ko/">
+  <link rel="alternate" hreflang="x-default" href="https://keithmcnulty.org/">
+  <meta name="theme-color" content="#0e1116">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <canvas id="network" aria-hidden="true"></canvas>
+
+  <header class="nav">
+    <a class="brand" href="#top">K<span>M</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="開啟選單">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="site-nav">
+      <a href="#about">簡介</a>
+      <a href="#writing">寫作</a>
+      <a href="#teaching">教學</a>
+      <a href="#books">著作</a>
+      <a href="#research">研究</a>
+      <a href="#contact">合作</a>
+      <div class="lang" aria-label="Language">
+        <a href="../" hreflang="en" lang="en">EN</a>
+        <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+        <a href="../zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+        <a href="./" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">繁體中文</a>
+        <a href="../ko/" hreflang="ko" lang="ko">한국어</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">數學家 · 工業與組織心理學家 · 資料科學家 · 教育者 · 作者</p>
+        <h1>Keith<br><em>McNulty</em></h1>
+        <p class="lede">我的工作位於數學與人的交會之處，而且是雙向的：用數學更好地理解人與組織，並幫助各個世代的人更好地理解數學。</p>
+        <div class="cta">
+          <a class="btn primary" href="#books">閱讀我的著作</a>
+          <a class="btn" href="https://keith-mcnulty.medium.com" target="_blank" rel="noopener">Medium 部落格 ↗</a>
+        </div>
+      </div>
+      <figure class="portrait">
+        <img src="../assets/portrait.jpg" alt="基思·麥克納爾蒂站在講台前演講，身後是藍色的簡報螢幕">
+      </figure>
+    </section>
+
+    <!-- BIO -->
+    <section id="about" class="section">
+      <div class="section-head">
+        <span class="num mono">01</span>
+        <h2>簡介</h2>
+      </div>
+      <div class="bio">
+        <p class="big">我是一名數學家、工業與組織心理學家、資料科學家與教育者。我擁有純數學博士學位，我所做的一切都回歸同一個理念：嚴謹的思考，加上清晰的闡釋，能夠改變人們看待世界的方式。</p>
+        <p>在職業上，我負責人才科學與人資分析方面的工作，結合工業與組織心理學和資料科學，協助組織運用統計學、網路科學與機器學習，對人做出更好、更公平的決策。我寫過兩本關於人資分析建模的技術書籍，並在世界各地就工作的未來、資料分析與人工智慧發表演講。</p>
+        <p>數學是貫穿這一切的主線。我經營一個充滿定理、問題、證明與程式碼的數學部落格；我近期的研究方向是代數組合學；作為教育者，我關注中學數學與大學數學之間的鴻溝：幫助學生從「求出答案」走向「理解為什麼它是對的」。</p>
+      </div>
+    </section>
+
+    <!-- WRITING -->
+    <section id="writing" class="section">
+      <div class="section-head">
+        <span class="num mono">02</span>
+        <h2>寫作</h2>
+      </div>
+      <a class="medium-card" href="https://keith-mcnulty.medium.com" target="_blank" rel="noopener">
+        <div>
+          <p class="eyebrow">數學部落格 · 發佈於 Medium</p>
+          <h3>定理、問題、證明、程式碼與想法。</h3>
+          <p>寫給好奇者的數學：一步步拆解優美的結果，值得反覆琢磨的問題，以及讓想法鮮活起來的程式碼。</p>
+          <ul class="tags mono">
+            <li>∀ 定理</li>
+            <li>? 問題</li>
+            <li>∎ 證明</li>
+            <li>&lt;/&gt; 程式碼</li>
+            <li>✦ 想法</li>
+          </ul>
+        </div>
+        <span class="arrow">閱讀部落格 ↗</span>
+      </a>
+    </section>
+
+    <!-- TEACHING -->
+    <section id="teaching" class="section">
+      <div class="section-head">
+        <span class="num mono">03</span>
+        <h2>教學</h2>
+      </div>
+      <div class="teach">
+        <div class="teach-intro">
+          <p class="big">留意鴻溝。</p>
+          <p>中學數學教你計算。大學數學則要求你去證明、去探索、去思考。作為教育者，我專注於這道鴻溝：幫助優秀的學生完成飛躍，從「求出答案」走向「理解為什麼它是對的」。</p>
+          <div class="gap" aria-hidden="true">
+            <span class="mono">中學</span>
+            <span class="bridge"></span>
+            <span class="mono">大學</span>
+          </div>
+        </div>
+        <div class="teach-links">
+          <a class="teach-card" href="https://beyondstep.keithmcnulty.org" target="_blank" rel="noopener">
+            <p class="eyebrow">免費線上書籍</p>
+            <h3>Beyond STEP</h3>
+            <p>以歷屆 STEP 考題為門徑，通往大學數學：每道題都引向其背後更深刻的想法。</p>
+            <span class="arrow">線上閱讀 ↗</span>
+          </a>
+          <a class="teach-card" href="https://keithmcnulty.substack.com/" target="_blank" rel="noopener">
+            <p class="eyebrow">免費電子報 · Substack</p>
+            <h3>The STEP Up</h3>
+            <p>為從中學數學邁向大學數學的學生，定期提供題目、解答與想法。</p>
+            <span class="arrow">訂閱 ↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKS -->
+    <section id="books" class="section">
+      <div class="section-head">
+        <span class="num mono">04</span>
+        <h2>著作</h2>
+      </div>
+      <div class="books">
+        <article class="book">
+          <div class="cover c1">
+            <span class="mono">y = β₀ + β₁x + ε</span>
+            <strong>Handbook of Regression Modeling in People Analytics</strong>
+            <small>附 R 與 Python 範例</small>
+          </div>
+          <div class="book-body">
+            <p class="mono meta">第二版 · CRC Press · Chapman &amp; Hall</p>
+            <p>一本關於解釋性與推論性建模的實用指南：線性、邏輯斯、順序、多項、階層與存活模型，全部以真實的人員資料為基礎。</p>
+            <div class="links">
+              <a href="https://peopleanalytics-regression-book.org" target="_blank" rel="noopener">免費線上閱讀 ↗</a>
+              <a href="https://www.routledge.com/Handbook-of-Regression-Modeling-in-People-Analytics-With-Examples-in-R-and-Python-Second-Edition/McNulty/p/book/9781041121268" target="_blank" rel="noopener">購買 ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="book">
+          <div class="cover c2">
+            <span class="mono">G = (V, E)</span>
+            <strong>Handbook of Graphs and Networks in People Analytics</strong>
+            <small>附 R 與 Python 範例</small>
+          </div>
+          <div class="book-body">
+            <p class="mono meta">CRC Press · Chapman &amp; Hall</p>
+            <p>如何將組織建模為網路：圖論、中心性、社群偵測與視覺化，應用於人們實際的連結與協作方式。</p>
+            <div class="links">
+              <a href="https://ona-book.org" target="_blank" rel="noopener">免費線上閱讀 ↗</a>
+              <a href="https://www.routledge.com/Handbook-of-Graphs-and-Networks-in-People-Analytics-With-Examples-in-R-and-Python/McNulty/p/book/9781032223636" target="_blank" rel="noopener">購買 ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research" class="section">
+      <div class="section-head">
+        <span class="num mono">05</span>
+        <h2>數學研究</h2>
+      </div>
+      <p class="intro">我近期的研究方向是代數組合學，目前聚焦於 immanant 的 Kazhdan&ndash;Lusztig 正性：由對稱群特徵標構造的某些矩陣函數，何時能保證非負，以及為什麼。</p>
+      <ol class="papers">
+        <li>
+          <span class="year mono">2026</span>
+          <div>
+            <h3>Hook monomial immanants are Kazhdan&ndash;Lusztig positive</h3>
+            <p>對所有鉤形與所有 <em>n</em> 證明了 Haiman 猜想。 <em>arXiv:2610.39021 · math.CO</em></p>
+          </div>
+          <a href="https://arxiv.org/abs/2610.39021" class="mono" target="_blank" rel="noopener">arXiv ↗</a>
+        </li>
+        <li>
+          <span class="year mono">2026</span>
+          <div>
+            <h3>Haiman's conjecture for <em>n</em> &le; 10: Kazhdan&ndash;Lusztig positivity of monomial immanants</h3>
+            <p>透過對 S<sub>10</sub> 中 12.5 億對元素進行精確計算，驗證了該猜想直至 <em>n</em> = 10 成立。 <em>arXiv:2610.41555 · math.CO</em></p>
+          </div>
+          <a href="https://arxiv.org/abs/2610.41555" class="mono" target="_blank" rel="noopener">arXiv ↗</a>
+        </li>
+      </ol>
+    </section>
+
+    <!-- SPEAKING BANNER -->
+    <section class="banner">
+      <img src="../assets/speaking.jpg" alt="基思·麥克納爾蒂在首爾人資分析大會上向眾多聽眾演講" loading="lazy">
+      <div class="banner-text">
+        <p class="eyebrow">演講</p>
+        <p class="quote">「我們正處在一個歷史上前所未有的技術變革時代。」</p>
+        <p class="mono small">人資分析大會 · 首爾 · 2023年10月</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <p class="eyebrow">聯絡 / 合作</p>
+      <h2>一起合作吧。</h2>
+      <p>演講、研究合作、教學，或者只是一道好的數學題：都歡迎與我聯絡。</p>
+      <a class="email" href="mailto:keith@keithmcnulty.org">聯絡我 ✉</a>
+      <p class="mono small or">也可以在這些平台找到我</p>
+      <div class="socials">
+        <a href="https://keith-mcnulty.medium.com" target="_blank" rel="noopener">Medium</a>
+        <a href="https://www.linkedin.com/in/keith-mcnulty/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://keithmcnulty.substack.com/" target="_blank" rel="noopener">Substack</a>
+        <a href="https://github.com/keithmcnulty" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span class="mono">© <span id="yr"></span> Keith McNulty</span>
+    <span class="mono">∎</span>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
