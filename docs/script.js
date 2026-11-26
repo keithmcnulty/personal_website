@@ -1,6 +1,27 @@
 // Footer year
 document.getElementById("yr").textContent = new Date().getFullYear();
 
+// Mobile menu toggle
+(() => {
+  const header = document.querySelector(".nav");
+  const btn = header.querySelector(".menu-toggle");
+  const labels = {
+    en: ["Open menu", "Close menu"],
+    ja: ["メニューを開く", "メニューを閉じる"],
+    "zh-Hans": ["打开菜单", "关闭菜单"],
+    "zh-Hant": ["開啟選單", "關閉選單"],
+    ko: ["메뉴 열기", "메뉴 닫기"],
+  };
+  const setOpen = (open) => {
+    header.classList.toggle("open", open);
+    btn.setAttribute("aria-expanded", open);
+    btn.setAttribute("aria-label", (labels[document.documentElement.lang] || labels.en)[open ? 1 : 0]);
+  };
+  btn.addEventListener("click", () => setOpen(!header.classList.contains("open")));
+  header.querySelectorAll("nav a").forEach((a) => a.addEventListener("click", () => setOpen(false)));
+  addEventListener("keydown", (e) => e.key === "Escape" && setOpen(false));
+})();
+
 // Scroll reveal
 const io = new IntersectionObserver(
   (entries) => entries.forEach((e) => e.isIntersecting && (e.target.classList.add("in"), io.unobserve(e.target))),

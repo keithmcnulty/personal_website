@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Keith McNulty (키스 맥널티) — 수학자, 산업조직심리학자, 데이터 과학자, 교육자</title>
+  <meta name="description" content="키스 맥널티: 수학자, 산업조직심리학자, 데이터 과학자이자 수학 교육자로, 수학과 사람이 만나는 곳에서 일합니다. 글쓰기, 교육, 저서, 그리고 수학 연구.">
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+  <link rel="alternate" hreflang="en" href="https://keithmcnulty.org/">
+  <link rel="alternate" hreflang="ja" href="https://keithmcnulty.org/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://keithmcnulty.org/zh-hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://keithmcnulty.org/zh-hant/">
+  <link rel="alternate" hreflang="ko" href="https://keithmcnulty.org/ko/">
+  <link rel="alternate" hreflang="x-default" href="https://keithmcnulty.org/">
+  <meta name="theme-color" content="#0e1116">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <canvas id="network" aria-hidden="true"></canvas>
+
+  <header class="nav">
+    <a class="brand" href="#top">K<span>M</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="메뉴 열기">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="site-nav">
+      <a href="#about">소개</a>
+      <a href="#writing">글</a>
+      <a href="#teaching">교육</a>
+      <a href="#books">저서</a>
+      <a href="#research">연구</a>
+      <a href="#contact">협업</a>
+      <div class="lang" aria-label="Language">
+        <a href="../" hreflang="en" lang="en">EN</a>
+        <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+        <a href="../zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+        <a href="../zh-hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+        <a href="./" hreflang="ko" lang="ko" aria-current="page">한국어</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">수학자 · 산업조직심리학자 · 데이터 과학자 · 교육자 · 저자</p>
+        <h1>Keith<br><em>McNulty</em></h1>
+        <p class="lede">저는 수학과 사람이 만나는 곳에서, 양방향으로 일합니다. 수학을 통해 사람과 조직을 더 잘 이해하고, 모든 세대의 사람들이 수학을 더 잘 이해하도록 돕습니다.</p>
+        <div class="cta">
+          <a class="btn primary" href="#books">제 책 읽기</a>
+          <a class="btn" href="https://keith-mcnulty.medium.com" target="_blank" rel="noopener">Medium 블로그 ↗</a>
+        </div>
+      </div>
+      <figure class="portrait">
+        <img src="../assets/portrait.jpg" alt="파란 발표 화면 앞 연단에서 강연하는 키스 맥널티">
+      </figure>
+    </section>
+
+    <!-- BIO -->
+    <section id="about" class="section">
+      <div class="section-head">
+        <span class="num mono">01</span>
+        <h2>소개</h2>
+      </div>
+      <div class="bio">
+        <p class="big">저는 수학자이자 산업조직심리학자, 데이터 과학자, 그리고 교육자입니다. 순수수학 박사 학위를 가지고 있으며, 제가 하는 모든 일은 하나의 생각으로 돌아갑니다. 엄밀한 사고를 명확하게 설명하면 사람들이 세상을 보는 방식이 바뀐다는 것입니다.</p>
+        <p>직업적으로는 탤런트 사이언스와 피플 애널리틱스 업무를 이끌며, 산업조직심리학과 데이터 과학을 결합해 조직이 통계, 네트워크 과학, 머신러닝을 활용하여 사람에 관해 더 낫고 더 공정한 결정을 내리도록 돕습니다. 피플 애널리틱스 모델링에 관한 기술서 두 권을 썼고, 일의 미래, 애널리틱스, AI에 대해 세계 각지에서 강연합니다.</p>
+        <p>이 모든 것을 관통하는 실은 수학입니다. 정리, 문제, 증명, 코드로 가득한 수학 블로그를 쓰고 있고, 최근 연구 분야는 대수적 조합론입니다. 교육자로서는 고등학교 수학과 대학 수학 사이의 간극에 집중하며, 학생들이 '답을 구하는 것'에서 '왜 그것이 참인지 이해하는 것'으로 나아가도록 돕습니다.</p>
+      </div>
+    </section>
+
+    <!-- WRITING -->
+    <section id="writing" class="section">
+      <div class="section-head">
+        <span class="num mono">02</span>
+        <h2>글</h2>
+      </div>
+      <a class="medium-card" href="https://keith-mcnulty.medium.com" target="_blank" rel="noopener">
+        <div>
+          <p class="eyebrow">수학 블로그 · Medium</p>
+          <h3>정리, 문제, 증명, 코드, 그리고 아이디어.</h3>
+          <p>호기심 많은 이들을 위한 수학: 아름다운 결과를 한 단계씩 풀어 보고, 곱씹어 볼 만한 문제를 다루며, 코드로 아이디어에 생명을 불어넣습니다.</p>
+          <ul class="tags mono">
+            <li>∀ 정리</li>
+            <li>? 문제</li>
+            <li>∎ 증명</li>
+            <li>&lt;/&gt; 코드</li>
+            <li>✦ 아이디어</li>
+          </ul>
+        </div>
+        <span class="arrow">블로그 읽기 ↗</span>
+      </a>
+    </section>
+
+    <!-- TEACHING -->
+    <section id="teaching" class="section">
+      <div class="section-head">
+        <span class="num mono">03</span>
+        <h2>교육</h2>
+      </div>
+      <div class="teach">
+        <div class="teach-intro">
+          <p class="big">간극에 주목하세요.</p>
+          <p>고등학교 수학은 계산하는 법을 가르칩니다. 대학 수학은 증명하고, 탐구하고, 사고하기를 요구합니다. 교육자로서 저는 그 간극에 집중하여, 뛰어난 학생들이 '답을 구하는 것'에서 '왜 그것이 참인지 이해하는 것'으로 도약하도록 돕습니다.</p>
+          <div class="gap" aria-hidden="true">
+            <span class="mono">고등학교</span>
+            <span class="bridge"></span>
+            <span class="mono">대학</span>
+          </div>
+        </div>
+        <div class="teach-links">
+          <a class="teach-card" href="https://beyondstep.keithmcnulty.org" target="_blank" rel="noopener">
+            <p class="eyebrow">무료 온라인 책</p>
+            <h3>Beyond STEP</h3>
+            <p>STEP 기출문제를 대학 수학으로 들어가는 관문으로: 각 문제가 그 뒤에 숨은 더 깊은 아이디어로 이어집니다.</p>
+            <span class="arrow">온라인으로 읽기 ↗</span>
+          </a>
+          <a class="teach-card" href="https://keithmcnulty.substack.com/" target="_blank" rel="noopener">
+            <p class="eyebrow">무료 뉴스레터 · Substack</p>
+            <h3>The STEP Up</h3>
+            <p>고등학교에서 대학 수학으로 도약하는 학생들을 위한 문제, 풀이, 아이디어를 정기적으로 전합니다.</p>
+            <span class="arrow">구독하기 ↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKS -->
+    <section id="books" class="section">
+      <div class="section-head">
+        <span class="num mono">04</span>
+        <h2>저서</h2>
+      </div>
+      <div class="books">
+        <article class="book">
+          <div class="cover c1">
+            <span class="mono">y = β₀ + β₁x + ε</span>
+            <strong>Handbook of Regression Modeling in People Analytics</strong>
+            <small>R과 Python 예제 포함</small>
+          </div>
+          <div class="book-body">
+            <p class="mono meta">제2판 · CRC Press · Chapman &amp; Hall</p>
+            <p>설명적·추론적 모델링을 위한 실용 가이드: 선형, 로지스틱, 순서형, 다항, 계층, 생존 모형을 모두 실제 인사 데이터에 기반해 다룹니다.</p>
+            <div class="links">
+              <a href="https://peopleanalytics-regression-book.org" target="_blank" rel="noopener">온라인 무료 읽기 ↗</a>
+              <a href="https://www.routledge.com/Handbook-of-Regression-Modeling-in-People-Analytics-With-Examples-in-R-and-Python-Second-Edition/McNulty/p/book/9781041121268" target="_blank" rel="noopener">구매 ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="book">
+          <div class="cover c2">
+            <span class="mono">G = (V, E)</span>
+            <strong>Handbook of Graphs and Networks in People Analytics</strong>
+            <small>R과 Python 예제 포함</small>
+          </div>
+          <div class="book-body">
+            <p class="mono meta">CRC Press · Chapman &amp; Hall</p>
+            <p>조직을 네트워크로 모델링하는 방법: 그래프 이론, 중심성, 커뮤니티 탐지, 시각화를 사람들이 실제로 연결되고 협업하는 방식에 적용합니다.</p>
+            <div class="links">
+              <a href="https://ona-book.org" target="_blank" rel="noopener">온라인 무료 읽기 ↗</a>
+              <a href="https://www.routledge.com/Handbook-of-Graphs-and-Networks-in-People-Analytics-With-Examples-in-R-and-Python/McNulty/p/book/9781032223636" target="_blank" rel="noopener">구매 ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research" class="section">
+      <div class="section-head">
+        <span class="num mono">05</span>
+        <h2>수학 연구</h2>
+      </div>
+      <p class="intro">최근 연구 분야는 대수적 조합론이며, 현재는 이머넌트(immanant)의 Kazhdan&ndash;Lusztig 양성을 연구하고 있습니다. 대칭군의 지표로 만들어지는 특정 행렬 함수가 언제 음이 아님이 보장되는지, 그리고 그 이유는 무엇인지에 관한 연구입니다.</p>
+      <ol class="papers">
+        <li>
+          <span class="year mono">2026</span>
+          <div>
+            <h3>Hook monomial immanants are Kazhdan&ndash;Lusztig positive</h3>
+            <p>모든 훅 모양과 모든 <em>n</em>에 대해 Haiman 추측을 증명합니다. <em>arXiv:2610.39021 · math.CO</em></p>
+          </div>
+          <a href="https://arxiv.org/abs/2610.39021" class="mono" target="_blank" rel="noopener">arXiv ↗</a>
+        </li>
+        <li>
+          <span class="year mono">2026</span>
+          <div>
+            <h3>Haiman's conjecture for <em>n</em> &le; 10: Kazhdan&ndash;Lusztig positivity of monomial immanants</h3>
+            <p>S<sub>10</sub>의 12억 5천만 개 쌍에 대한 정확한 계산으로 <em>n</em> = 10까지 추측을 검증합니다. <em>arXiv:2610.41555 · math.CO</em></p>
+          </div>
+          <a href="https://arxiv.org/abs/2610.41555" class="mono" target="_blank" rel="noopener">arXiv ↗</a>
+        </li>
+      </ol>
+    </section>
+
+    <!-- SPEAKING BANNER -->
+    <section class="banner">
+      <img src="../assets/speaking.jpg" alt="서울 피플 애널리틱스 컨퍼런스에서 많은 청중 앞에서 강연하는 키스 맥널티" loading="lazy">
+      <div class="banner-text">
+        <p class="eyebrow">강연</p>
+        <p class="quote">“우리는 역사상 유례없는 기술 변화의 시대에 일하고 있습니다.”</p>
+        <p class="mono small">피플 애널리틱스 컨퍼런스 · 서울 · 2023년 10월</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <p class="eyebrow">연락 / 협업</p>
+      <h2>함께 일해요.</h2>
+      <p>강연, 연구 협업, 교육, 혹은 좋은 수학 문제 하나라도: 언제든 연락 주세요.</p>
+      <a class="email" href="mailto:keith@keithmcnulty.org">연락하기 ✉</a>
+      <p class="mono small or">다른 곳에서도 만나보세요</p>
+      <div class="socials">
+        <a href="https://keith-mcnulty.medium.com" target="_blank" rel="noopener">Medium</a>
+        <a href="https://www.linkedin.com/in/keith-mcnulty/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://keithmcnulty.substack.com/" target="_blank" rel="noopener">Substack</a>
+        <a href="https://github.com/keithmcnulty" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span class="mono">© <span id="yr"></span> Keith McNulty</span>
+    <span class="mono">∎</span>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
