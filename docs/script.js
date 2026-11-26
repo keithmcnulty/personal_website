@@ -1,6 +1,20 @@
 // Footer year
 document.getElementById("yr").textContent = new Date().getFullYear();
 
+// Mobile menu toggle
+(() => {
+  const header = document.querySelector(".nav");
+  const btn = header.querySelector(".menu-toggle");
+  const setOpen = (open) => {
+    header.classList.toggle("open", open);
+    btn.setAttribute("aria-expanded", open);
+    btn.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+  };
+  btn.addEventListener("click", () => setOpen(!header.classList.contains("open")));
+  header.querySelectorAll("nav a").forEach((a) => a.addEventListener("click", () => setOpen(false)));
+  addEventListener("keydown", (e) => e.key === "Escape" && setOpen(false));
+})();
+
 // Scroll reveal
 const io = new IntersectionObserver(
   (entries) => entries.forEach((e) => e.isIntersecting && (e.target.classList.add("in"), io.unobserve(e.target))),
