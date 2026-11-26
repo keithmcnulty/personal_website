@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Keith McNulty — Mathematician, Author, People Scientist</title>
+  <meta name="description" content="Keith McNulty: writing, books and mathematical research at the intersection of people, data and mathematics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="network" aria-hidden="true"></canvas>
+
+  <header class="nav">
+    <a class="brand" href="#top">K<span>M</span></a>
+    <nav>
+      <a href="#about">Bio</a>
+      <a href="#writing">Writing</a>
+      <a href="#books">Books</a>
+      <a href="#research">Research</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Mathematician · Author · People Scientist</p>
+        <h1>Keith<br><em>McNulty</em></h1>
+        <p class="lede">I work where mathematics meets people: building rigorous, humane ways to understand organisations, and writing about it for anyone who will listen.</p>
+        <div class="cta">
+          <a class="btn primary" href="#books">Read my books</a>
+          <a class="btn" href="https://keith-mcnulty.medium.com" target="_blank" rel="noopener">Medium blog ↗</a>
+        </div>
+      </div>
+      <figure class="portrait">
+        <img src="assets/portrait.jpg" alt="Keith McNulty smiling at a podium on stage">
+        <figcaption><span class="mono">fig. 1</span> Keynote, People Analytics Conference, Seoul, 2023</figcaption>
+      </figure>
+    </section>
+
+    <!-- BIO -->
+    <section id="about" class="section">
+      <div class="section-head">
+        <span class="num mono">01</span>
+        <h2>Bio</h2>
+      </div>
+      <div class="bio">
+        <!-- TODO(Keith): review and personalise this bio -->
+        <p class="big">I'm a mathematician by training and a people scientist by trade. I hold a PhD in Pure Mathematics, and I've spent my career applying quantitative thinking to one of the hardest systems there is: human organisations.</p>
+        <p>I lead work on talent science and people analytics, helping organisations use statistics, network science and machine learning to make better and fairer decisions about their people. I write regularly about data science, statistics and programming, and I've published two technical books on modelling in people analytics.</p>
+        <p>I speak internationally on the future of work, analytics and AI. When I'm not doing any of that, I'm usually back at the blackboard working on a problem in pure mathematics.</p>
+        <ul class="facts">
+          <li><span class="mono">PhD</span> Pure Mathematics</li>
+          <li><span class="mono">2</span> books on people analytics</li>
+          <li><span class="mono">∞</span> articles on data &amp; maths</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- WRITING -->
+    <section id="writing" class="section">
+      <div class="section-head">
+        <span class="num mono">02</span>
+        <h2>Writing</h2>
+      </div>
+      <a class="medium-card" href="https://keith-mcnulty.medium.com" target="_blank" rel="noopener">
+        <div>
+          <p class="eyebrow">On Medium</p>
+          <h3>Data science, statistics, R &amp; Python, and the mathematics underneath it all.</h3>
+          <p>Practical, plain-English articles for people who want to really understand the methods they use.</p>
+        </div>
+        <span class="arrow">Read the blog ↗</span>
+      </a>
+    </section>
+
+    <!-- BOOKS -->
+    <section id="books" class="section">
+      <div class="section-head">
+        <span class="num mono">03</span>
+        <h2>Books</h2>
+      </div>
+      <div class="books">
+        <article class="book">
+          <div class="cover c1">
+            <span class="mono">y = β₀ + β₁x + ε</span>
+            <strong>Handbook of Regression Modeling in People Analytics</strong>
+            <small>With examples in R and Python</small>
+          </div>
+          <div class="book-body">
+            <p class="mono meta">CRC Press · Chapman &amp; Hall</p>
+            <p>A practical guide to explanatory and inferential modelling: linear, logistic, ordinal, multinomial, hierarchical and survival models, all grounded in real people data.</p>
+            <div class="links">
+              <a href="https://peopleanalytics-regression-book.org" target="_blank" rel="noopener">Read free online ↗</a>
+              <a href="https://www.routledge.com/Handbook-of-Regression-Modeling-in-People-Analytics-With-Examples-in-R-and-Python/McNulty/p/book/9781032041742" target="_blank" rel="noopener">Buy ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="book">
+          <div class="cover c2">
+            <span class="mono">G = (V, E)</span>
+            <strong>Handbook of Graphs and Networks in People Analytics</strong>
+            <small>With examples in R and Python</small>
+          </div>
+          <div class="book-body">
+            <p class="mono meta">CRC Press · Chapman &amp; Hall</p>
+            <p>How to model organisations as networks: graph theory, centrality, community detection and visualisation, applied to how people actually connect and collaborate.</p>
+            <div class="links">
+              <a href="https://ona-book.org" target="_blank" rel="noopener">Read free online ↗</a>
+              <a href="https://www.routledge.com/Handbook-of-Graphs-and-Networks-in-People-Analytics-With-Examples-in-R-and-Python/McNulty/p/book/9781032223636" target="_blank" rel="noopener">Buy ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research" class="section">
+      <div class="section-head">
+        <span class="num mono">04</span>
+        <h2>Mathematical research</h2>
+      </div>
+      <p class="intro">My research is in pure mathematics. Selected papers and preprints are below; the full list is on my research profiles.</p>
+      <!-- TODO(Keith): replace these placeholder entries with your real papers -->
+      <ol class="papers">
+        <li>
+          <span class="year mono">20XX</span>
+          <div>
+            <h3>Title of paper one</h3>
+            <p>Co-authors · <em>Journal or arXiv</em></p>
+          </div>
+          <a href="#" class="mono">arXiv ↗</a>
+        </li>
+        <li>
+          <span class="year mono">20XX</span>
+          <div>
+            <h3>Title of paper two</h3>
+            <p>Co-authors · <em>Journal or arXiv</em></p>
+          </div>
+          <a href="#" class="mono">PDF ↗</a>
+        </li>
+        <li>
+          <span class="year mono">20XX</span>
+          <div>
+            <h3>PhD thesis title</h3>
+            <p><em>Doctoral thesis, Pure Mathematics</em></p>
+          </div>
+          <a href="#" class="mono">PDF ↗</a>
+        </li>
+      </ol>
+      <div class="profiles">
+        <!-- TODO(Keith): point these at your real profiles -->
+        <a href="https://arxiv.org/a/" target="_blank" rel="noopener">arXiv</a>
+        <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="https://orcid.org/" target="_blank" rel="noopener">ORCID</a>
+      </div>
+    </section>
+
+    <!-- SPEAKING BANNER -->
+    <section class="banner">
+      <img src="assets/speaking.jpg" alt="Keith McNulty presenting to a large audience at the People Analytics Conference in Seoul" loading="lazy">
+      <div class="banner-text">
+        <p class="eyebrow">Speaking</p>
+        <p class="quote">“Predictive analytics can help with taking action in low-stakes settings.”</p>
+        <p class="mono small">People Analytics Conference · Seoul · October 2023</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2>Let's talk.</h2>
+      <p>For speaking, collaboration or a good maths problem, find me here:</p>
+      <div class="socials">
+        <a href="https://keith-mcnulty.medium.com" target="_blank" rel="noopener">Medium</a>
+        <a href="https://www.linkedin.com/in/keith-mcnulty/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/keithmcnulty" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span class="mono">© <span id="yr"></span> Keith McNulty</span>
+    <span class="mono">∎</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

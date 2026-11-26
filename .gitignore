@@ -1,0 +1,19 @@
+# Original full-resolution photos and archives (web copies live in assets/)
+/*.jpg
+/*.jpeg
+/*.png
+*.zip
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# Local preview / tooling
+node_modules/
+.env
